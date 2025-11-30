@@ -75,7 +75,7 @@ export default function Home() {
               description="A web app to generate Spotify playlists from songs within Youtube playlists."
               tags={["Python", "React", "Flask", "PostgreSQL", "TypeScript", "Spotify API"]}
               link="autoqueue"
-              imageSrc="/filler.png" // <-- public folder path
+              imageSrc="/sexylove.png" // <-- public folder path
             />
           </div>
 

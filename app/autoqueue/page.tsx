@@ -52,8 +52,8 @@ export default function AutoQueue() {
           </p>
           <br />
            <div className="text-center mb-6">
-            <img src="youtube1.png" className="mx-auto rounded-lg w-[700]" />
-            <img src="youtube2.png" className="mx-auto rounded-lg w-[700]" />
+            <img src="autoqueue/youtube1.png" className="mx-auto rounded-lg w-[700]" />
+            <img src="autoqueue/youtube2.png" className="mx-auto rounded-lg w-[700]" />
             <p className="mt-2 text-sm">This channel introduced me to the world of R&B, funk, soul, etc. I wanted to add them to Spotify playlists and the easiest solution I could think of was to rip them off of the description :)</p>
           </div>
           <section id="features" className="scroll-mt-32">
@@ -97,7 +97,7 @@ export default function AutoQueue() {
               The terminal tool allows you to do everything from the command line. 
               You can log in with Spotify, input YouTube URLs, review detected songs, and add them to your playlists—all without touching a terminal.
             </p>
-            <img src="/autoqueue.png" className="mx-auto my-8 rounded-lg w-3/4" />
+            <img src="/autoqueue/autoqueue.png" className="mx-auto my-8 rounded-lg w-3/4" />
           </section>
 
           <section id="troubleshooting" className="scroll-mt-32">
