@@ -62,7 +62,7 @@ export default function Home() {
           <div className="space-y-24 mb-24">
             <ProjectCard
               title="AutoQueue"
-              description="A generator to create Spotify playlists from songs within Youtube playlists."
+              description="A web app to generate Spotify playlists from songs within Youtube playlists."
               tags={["Python", "React", "Flask", "PostgreSQL", "TypeScript", "Spotify API"]}
               link="autoqueue"
               imageSrc="/filler.png" // <-- public folder path
@@ -72,7 +72,7 @@ export default function Home() {
           <div className="space-y-24 mb-24">
             <ProjectCard
               title="Coghead"
-              description="From concept to production—full-stack ownership."
+              description="A calculator web app for fixie foos."
               tags={["React", "Next.js", "Node.js", "TypeScript"]}
               link="coghead"
               imageSrc="/filler.png" // <-- public folder path

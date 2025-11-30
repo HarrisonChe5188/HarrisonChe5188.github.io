@@ -128,7 +128,7 @@ export default function PiAsWifiAccessPoint() {
             </ul>
 
             <p className="mt-4">Example <code>/stats</code> response:</p>
-            <pre className="bg-black/5 dark:bg-white/5 p-3 rounded">
+        <pre className="bg-black/5 dark:bg-white/5 p-3 rounded">
 {`{
   "temp": 23.5,
   "free_mem": 123456,
