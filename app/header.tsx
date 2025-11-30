@@ -19,7 +19,14 @@ export default function Header() {
   return (
     <nav className="fixed top-0 left-0 right-0 z-40 backdrop-blur-md bg-white/80 dark:bg-black/80 border-b border-zinc-200 dark:border-zinc-800">
       <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
-        <div className="text-sm tracking-wider">车向东 chē xiàng dōng </div>
+        <div className="text-sm tracking-wider">
+            <button
+            onClick={() => goToSection("")}
+            className="hover:text-blue-600 transition cursor-pointer"
+          >
+            车向东 chē xiàng dōng 
+          </button>
+        </div>
         <div className="flex gap-8 items-center text-sm">
           <button
             onClick={() => goToSection("work")}
@@ -40,9 +47,7 @@ export default function Header() {
           >
             about
           </button>
-          <a href="mailto:your-email@example.com" className="hover:text-blue-600 transition">
-            contact
-          </a>
+          
         </div>
       </div>
     </nav>

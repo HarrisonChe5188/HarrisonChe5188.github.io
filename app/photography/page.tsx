@@ -1,8 +1,6 @@
 "use client";
 
-import Header from "@/app/header";
 import PhotoCard from "./PhotoCard";
-import AARNChainring from "../chainring";
 
 export default function Photography() {
   const photos = [
@@ -30,16 +28,15 @@ export default function Photography() {
   ];
 
   return (
-    <div className="relative min-h-screen bg-white dark:bg-black text-black dark:text-white overflow-hidden">
-      <AARNChainring />
-      <Header />
+    <div className="relative min-h-screen text-black dark:text-white overflow-hidden">
+    
 
-      <div className="relative z-10 max-w-8x2 mx-auto px-6 sm:px-8 lg:px-12 py-24">
+      <div className="relative z-10 max-w-8x2 mx-auto px-6 sm:px-8 lg:px-75 py-24">
         <h1 className="text-5xl sm:text-6xl font-bold mb-12 text-center">
           Photography
         </h1>
 
-        <p className="text-center text-zinc-600 dark:text-zinc-400 mb-16 max-w-2xl mx-auto">
+        <p className="text-center text-zinc-600 dark:text-zinc-400 mb-12 max-w-2xl mx-auto">
           A selection of my personal photography. Click on a photo to see more details.
         </p>
 

@@ -4,11 +4,13 @@ import { motion } from "framer-motion";
 import AARNChainring from "./chainring";
 import ProjectCard from "./ProjectCard";
 import Header from "./header";
+import { useRouter } from "next/navigation";
 export default function Home() {
   const skills = [
     { category: "Frontend", items: ["React", "Next.js", "TypeScript", "Tailwind"] },
     { category: "Backend", items: ["Node.js", "Express", "PostgreSQL", "API Design", "System Architecture"] },
   ];
+  const router = useRouter();
 
   return (
     <div className="min-h-screen bg-white dark:bg-black text-black dark:text-white antialiased relative overflow-hidden">
@@ -41,12 +43,12 @@ export default function Home() {
             </div>
 
             <div className="mt-12 flex gap-6 text-sm">
-              <a href="#work" className="px-6 py-3 bg-black dark:bg-white text-white dark:text-black hover:bg-zinc-800 dark:hover:bg-zinc-200 transition">
-                view work
+              <a href="#work" className="px-6 py-3 border border-zinc-300 dark:border-zinc-700 hover:border-zinc-400 dark:hover:border-zinc-600 transition cursor-pointer hover:text-blue-600">
+                view projects
               </a>
-              <a href="mailto:your-email@example.com" className="px-6 py-3 border border-zinc-300 dark:border-zinc-700 hover:border-zinc-400 dark:hover:border-zinc-600 transition">
-                get in touch
-              </a>
+              <button onClick={() => router.push("/photography")}  className="px-6 py-3 border border-zinc-300 dark:border-zinc-700 hover:border-zinc-400 dark:hover:border-zinc-600 transition cursor-pointer hover:text-blue-600">
+                view photography
+              </ button>
             </div>
           </motion.div>
         </div>
@@ -154,25 +156,13 @@ export default function Home() {
             </div>
 
             <div className="mt-12 flex gap-6 text-sm">
-              <a href="https://github.com/yourusername" className="hover:text-blue-600 transition">github →</a>
-              <a href="https://linkedin.com/in/yourusername" className="hover:text-blue-600 transition">linkedin →</a>
-              <a href="mailto:your-email@example.com" className="hover:text-blue-600 transition">email →</a>
+              <a href="https://github.com/HarrisonChe5188" className="hover:text-blue-600 transition">github →</a>
+              <a href="https://www.linkedin.com/in/harrison-che-8a2494209/" className="hover:text-blue-600 transition">linkedin →</a>
+              <a href="mailto:harrisonche6@gmail.com" className="hover:text-blue-600 transition">email →</a>
             </div>
           </div>
         </section>
-        {/* FOOTER */}
-        <footer className="border-t border-zinc-200 dark:border-zinc-800 mt-32">
-          <div className="max-w-6xl mx-auto px-6 sm:px-8 lg:px-12 py-12">
-            <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 text-sm text-zinc-500">
-              <div>© {new Date().getFullYear()} Harrison Che</div>
-              <div className="flex gap-6">
-                <a href="https://github.com/yourusername" className="hover:text-zinc-900 dark:hover:text-zinc-100 transition">GitHub</a>
-                <a href="https://linkedin.com/in/yourusername" className="hover:text-zinc-900 dark:hover:text-zinc-100 transition">LinkedIn</a>
-                <a href="mailto:your-email@example.com" className="hover:text-zinc-900 dark:hover:text-zinc-100 transition">Email</a>
-              </div>
-            </div>
-          </div>
-        </footer>
+        
         
       </main>
     </div>

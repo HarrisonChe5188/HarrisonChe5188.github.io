@@ -19,7 +19,7 @@ export default function PhotoCard({ imageSrc, title, description, className }: P
           className="w-full h-full object-cover"
         />
       </div>
-      <div className="p-4">
+      <div className="p-2">
         <h3 className="font-semibold text-lg mb-1">{title}</h3>
         <p className="text-sm text-zinc-600 dark:text-zinc-400">{description}</p>
       </div>
