@@ -23,9 +23,9 @@ export default function PiAsWifiAccessPoint() {
 
 
         {/* ───── CONTENT ───── */}
-        <main className="flex-1 prose prose-lg dark:prose-invert max-w-none scroll-smooth">
+        <main className="flex-1 prose prose-lg dark:prose-invert max-w-none">
 
-          <h1 id="PicoWifiAccessPoint" className="text-4xl font-bold mb-6 scroll-mt-32">
+          <h1 id="PicoWifiAccessPoint" className="text-4xl font-bold mb-6 scroll-mt-27">
             Pi as a WiFi Access Point
           </h1>
 
@@ -36,7 +36,7 @@ export default function PiAsWifiAccessPoint() {
             and in the future I want to try out lightweight reverse-proxying, inter-Pico communication, or a Next.js-hosted control panel (when I do get parts).
           </p>
 
-          <section id="features" className="scroll-mt-32">
+          <section id="features" className="scroll-mt-27">
             <h2 className="text-3xl font-semibold mt-12">Features</h2>
             <p>
               Project Capabilities:
@@ -49,7 +49,7 @@ export default function PiAsWifiAccessPoint() {
             </ul>
           </section>
 
-          <section id="hardware" className="scroll-mt-32">
+          <section id="hardware" className="scroll-mt-27">
             <h2 className="text-3xl font-semibold mt-12">Hardware</h2>
             <p>Minimal requirements — everything runs on the Pico itself:</p>
             <ul>
@@ -62,7 +62,7 @@ export default function PiAsWifiAccessPoint() {
             </p>
           </section>
 
-          <section id="installation" className="scroll-mt-32">
+          <section id="installation" className="scroll-mt-27">
             <h2 className="text-3xl font-semibold mt-12">Installation</h2>
             <ol>
               <li>Install MicroPython on the Pico (Thonny is convenient).</li>
@@ -74,7 +74,7 @@ export default function PiAsWifiAccessPoint() {
             </ol>
           </section>
 
-          <section id="usage" className="scroll-mt-32">
+          <section id="usage" className="scroll-mt-27">
             <h2 className="text-3xl font-semibold mt-12">Connecting</h2>
             <p>Quick steps to access the web UI:</p>
             <ol>
@@ -84,7 +84,7 @@ export default function PiAsWifiAccessPoint() {
             </ol>
           </section>
 
-          <section id="morse" className="scroll-mt-32">
+          <section id="morse" className="scroll-mt-27">
             <h2 className="text-3xl font-semibold mt-12">Morse Code Blinker</h2>
             <p>
               Enter letters, numbers or spaces in the web form and click <em>Blink LED</em>. The Pico will blink the message in Morse using non-blocking threading.
@@ -99,7 +99,7 @@ export default function PiAsWifiAccessPoint() {
             <p className="mt-2">If you change speed, adjust the <code>dot_time</code> in <code>blink_morse()</code>.</p>
           </section>
 
-          <section id="stats" className="scroll-mt-32">
+          <section id="stats" className="scroll-mt-27">
             <h2 className="text-3xl font-semibold mt-12">System Stats</h2>
             <p>
               The interface polls a <code>/stats</code> endpoint (every ~2s) to display:
@@ -112,14 +112,14 @@ export default function PiAsWifiAccessPoint() {
             <p>Stats are returned as JSON and rendered live on the page.</p>
           </section>
 
-          <section id="demo" className="scroll-mt-32">
+          <section id="demo" className="scroll-mt-27">
             <h2 className="text-3xl font-semibold mt-12">Demo</h2>
             <p className="mb-4">Animated demos (web UI and Pico LED):</p>
             <img src="pi/sos_web.gif" alt="Web UI demo" className="mb-4" width="500" />
             <img src="pi/sos_pi.gif" alt="Pico LED demo" />
           </section>
 
-          <section id="api" className="scroll-mt-32">
+          <section id="api" className="scroll-mt-27">
             <h2 className="text-3xl font-semibold mt-12">API Endpoints</h2>
             <ul>
               <li><code>GET /</code> — main web interface</li>
@@ -139,7 +139,7 @@ export default function PiAsWifiAccessPoint() {
             </pre>
           </section>
 
-          <section id="troubleshooting" className="scroll-mt-32">
+          <section id="troubleshooting" className="scroll-mt-27">
             <h2 className="text-3xl font-semibold mt-12">Troubleshooting</h2>
             <ul>
               <li><strong>No WiFi network:</strong> power-cycle the Pico and check the serial console for "AP Mode Is Active".</li>
@@ -149,7 +149,7 @@ export default function PiAsWifiAccessPoint() {
             </ul>
           </section>
 
-          <section id="customization" className="scroll-mt-32 ">
+          <section id="customization" className="scroll-mt-27 ">
             <h2 className="text-3xl font-semibold mt-12">Customization</h2>
 
             <h3 className="text-xl font-medium mt-4">Change Morse speed</h3>

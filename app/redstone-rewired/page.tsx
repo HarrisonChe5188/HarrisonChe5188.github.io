@@ -1,5 +1,4 @@
 "use client";
-
 import DocSidebar from "../components/sidebar";
 
 export default function ModularRedstoneCircuit() {
@@ -22,15 +21,13 @@ export default function ModularRedstoneCircuit() {
         />
 
         {/* ───── MAIN CONTENT ───── */}
-        <main className="flex-1 prose prose-lg dark:prose-invert max-w-none scroll-smooth">
+        <main className="flex-1 prose prose-lg dark:prose-invert max-w-none">
 
-          <h1 id="the-gang" className="text-4xl font-bold mb-6 scroll-mt-32">
+          <h1 id="overview" className="text-4xl font-bold mb-6 scroll-mt-27">
             Redstone Rewired
           </h1>
           
 
-          <section id="overview" className="scroll-mt-32">
-            <h2 className="text-3xl font-semibold mt-12">Project Overview</h2>
             <p>
               Submitted for Boston University's annual Lutron Lighting Competition, this project brings <strong>Minecraft redstone circuits to life</strong> using an 
               <strong> Arduino</strong>, basic electronics, and <strong>snap-on wire connectors</strong> to create a modular system. We also ended up winning first place in the competition!
@@ -51,13 +48,12 @@ export default function ModularRedstoneCircuit() {
               <li>Wooden Slab</li>
             </ul>
             <p>Snap-on connectors allow easy assembly and reconfiguration—just like placing blocks in Minecraft!</p>
-          </section>
           <br />
         <div className="text-center mb-6">
             <img src="/gang.png" className="mx-auto rounded-lg" />
             <p className="mt-2 text-sm">From left to right: Nick, Nick, Harrison, and Ezan (in spirit).</p>
           </div>
-          <section id="how-it-works" className="scroll-mt-32">
+          <section id="how-it-works" className="scroll-mt-27">
             <h2 className="text-3xl font-semibold mt-12">How It Works and How it Was Created</h2>
             <ul>
               <li>The lever toggles the circuit on/off.</li>
@@ -97,7 +93,7 @@ export default function ModularRedstoneCircuit() {
 
           </section>
 
-          <section id="hardware" className="scroll-mt-32">
+          <section id="hardware" className="scroll-mt-27">
             <h2 className="text-3xl font-semibold mt-12">Hardware & Materials</h2>
             
             <ul>
@@ -112,7 +108,7 @@ export default function ModularRedstoneCircuit() {
             </ul>
           </section>
 
-          <section id="code-setup" className="scroll-mt-32">
+          <section id="code-setup" className="scroll-mt-27">
             <h2 className="text-3xl font-semibold mt-12">Code & Circuit Setup</h2>
             
             <h3 className="text-2xl font-semibold mt-6">Arduino Servo Code</h3>
@@ -172,20 +168,20 @@ void loop() {
   </p>
           </section>
 
-          <section id="diagram" className="scroll-mt-32">
+          <section id="diagram" className="scroll-mt-27">
             <h2 className="text-3xl font-semibold mt-12">Circuit Diagram</h2>
             <div className="text-center my-6">
               <img src="redstone/tink.png" className="mx-auto rounded-lg" />
             </div>
           </section>
-        <section id="code-setup" className="scroll-mt-32">
+        <section id="code-setup" className="scroll-mt-27">
   
 
   
 
 
 </section>
-          <section id="images" className="scroll-mt-32">
+          <section id="images" className="scroll-mt-27">
             <h2 className="text-3xl font-semibold mt-12">Project Images</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 my-6">
               <img src="redstone/pist.jpg" className="rounded-lg" />
@@ -196,7 +192,7 @@ void loop() {
           </section>
 
 
-          <section id="future" className="scroll-mt-32 mb-24">
+          <section id="future" className="scroll-mt-27 mb-24">
             <h2 className="text-3xl font-semibold mt-12">Future Improvements and Links</h2>
             <ul>
               <li>Add more redstone components (repeaters, comparators)</li>

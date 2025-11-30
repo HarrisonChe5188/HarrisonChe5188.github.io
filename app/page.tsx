@@ -69,7 +69,7 @@ export default function Home() {
             />
           </div>
 
-          <div className="space-y-24 mb-24">
+          {/* <div className="space-y-24 mb-24">
             <ProjectCard
               title="Coghead"
               description="A calculator web app for fixie foos."
@@ -77,12 +77,12 @@ export default function Home() {
               link="coghead"
               imageSrc="/filler.png" // <-- public folder path
             />
-          </div>
+          </div> */}
 
           <div className="space-y-24 mb-24">
             <ProjectCard
               title="Steam Review Sentiment Analysis"
-              description="New game's out! But I ain't reading all those reviews. So I built a tool that uses NLP to analyze and summarize user reviews for any game on Steam, helping gamers make informed decisions quickly."
+              description="New game's out! But I ain't reading all those reviews. So we built a tool that uses NLP to analyze and summarize user reviews for any game on Steam, helping gamers make informed decisions quickly."
               tags={["Python", "NLP", "Data Visualization"]}
               link="steam-reviews-sentiment-analysis"
               imageSrc="/topN.png" // <-- public folder path

@@ -26,17 +26,13 @@ export default function SteamReviewsSentimentAnalysis() {
         {/* ─────────── Main Content ─────────── */}
         <main className="flex-1 prose prose-lg dark:prose-invert max-w-none">
           
-          <h1 className="text-4xl font-bold mb-6">Steam Review Sentiment Analysis</h1>
-
-          <section id="overview" className="scroll-mt-27">
-            <h2 className="text-3xl font-semibold mt-12">Overview</h2>
+          <h1 id="overview" className="text-4xl font-bold mb-6 scroll-mt-27">Steam Review Sentiment Analysis</h1>
             <p>
               Steam is a massive online marketplace known for its review system,
               where players can recommend or not recommend games. Our project focuses
               on analyzing the sentiment of these reviews to understand what features
               push reviews toward being positive or negative.
             </p>
-          </section>
 
           <section id="goals"className="scroll-mt-27" >
             <h2 className="text-3xl font-semibold mt-12">Goals</h2>
