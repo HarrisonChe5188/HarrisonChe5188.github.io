@@ -9,7 +9,7 @@ export default function ModularRedstoneCircuit() {
         {/* ───── SIDEBAR ───── */}
         <DocSidebar
           items={[
-            { id: "overview", label: "Project Overview" },
+            { id: "overview", label: "Overview" },
             { id: "how-it-works", label: "How It Works and How it was Created" },
             { id: "hardware", label: "Hardware & Materials" },
             { id: "code-setup", label: "Code & Circuit Setup" },
