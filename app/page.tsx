@@ -29,12 +29,13 @@ export default function Home() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
           >
-            <div className="space-y-2 mb-8">
-              <h1 className="text-7xl sm:text-8xl lg:text-9xl font-bold tracking-tighter">
+            <div className="textAlign: 'center'space-y-2 mb-8">
+              <h1 className="text-7xl sm:text-8xl lg:text-9xl font-bold tracking-tighter" style={{ display: 'flex', justifyContent: 'center' }}>
                 Harrison Che
               </h1>
-              <div className="flex items-center gap-3 text-lg sm:text-xl text-zinc-600 dark:text-zinc-400">
-                <span>full-stack engineer</span>
+              <div className="flex items-center gap-3 text-lg sm:text-xl text-zinc-600 dark:text-zinc-400" style={{ display: 'flex', justifyContent: 'center' }}>
+                
+                <span>full-stack</span>
                 <span className="text-zinc-300 dark:text-zinc-700">•</span>
                 <span>boston</span>
                 <span className="text-zinc-300 dark:text-zinc-700">•</span>
@@ -42,7 +43,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="mt-12 flex gap-6 text-sm">
+            <div className="mt-12 flex gap-6 text-sm" style={{ display: 'flex', justifyContent: 'center' }}> 
               <a href="#work" className="px-6 py-3 border border-zinc-300 dark:border-zinc-700 hover:border-zinc-400 dark:hover:border-zinc-600 transition cursor-pointer hover:text-blue-600">
                 view projects
               </a>
