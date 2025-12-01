@@ -48,7 +48,7 @@ export default function AutoQueue() {
             Writing this page now, I'm realizing that this tool really just sucks. Hell I hardcoded my secrets into the repo for easy access.
             But hey, it was a fun project to build and I learned a lot about OAuth flows, working with third-party APIs, and building web apps with Next.js.
             If I ever get around to it, I might try improving the song detection algorithm or adding support for other platforms like Apple Music or YouTube Music.
-            If for some reason you want to use this tool, you're going to have to set up your own Spotify Dev app to get your own client ID and secret, while setting up your own URI.
+            If for some reason you want to use this tool, you're going to have to set up your own Spotify Dev app to get your own client ID and secret, while setting up your own redirect URIs (I used a localhost).
           </p>
           <br />
            <div className="text-center mb-6">
