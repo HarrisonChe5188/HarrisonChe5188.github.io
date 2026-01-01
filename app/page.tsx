@@ -69,11 +69,11 @@ export default function Home() {
           
           <div className="space-y-24 mb-24">
             <ProjectCard
-              title="AutoQueue"
-              description="A web app to generate Spotify playlists from songs within Youtube playlists."
-              tags={["Python", "React", "Flask", "PostgreSQL", "TypeScript", "Spotify API"]}
-              link="autoqueue"
-              imageSrc="/sexylove.png" // <-- public folder path
+              title="PID Motor Control"
+              description="Designed and built an Arduino-controlled vehicle that safely transports a tall, unsupported block over variable distances, using stability-focused mechanical design and control logic to prevent toppling."
+              tags={[]}
+              link="pid-motor-control"
+              imageSrc="/PID.jpg" // <-- public folder path
             />
           </div>
 
