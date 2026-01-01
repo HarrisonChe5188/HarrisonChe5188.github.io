@@ -24,7 +24,7 @@ export default function Header() {
             onClick={() => goToSection("")}
             className="hover:text-blue-600 transition cursor-pointer"
           >
-            车向东 chē xiàng dōng 
+            Nick Lin
           </button>
         </div>
         <div className="flex gap-8 items-center text-sm">
@@ -35,12 +35,7 @@ export default function Header() {
             work
           </button>
           
-          <button
-            onClick={() => router.push("/photography")}
-            className="hover:text-blue-600 transition cursor-pointer"
-          >
-            photography
-          </button>
+          
           <button
             onClick={() => goToSection("about")}
             className="hover:text-blue-600 transition cursor-pointer"
