@@ -59,7 +59,7 @@ export default function Home() {
       <main className="relative z-10">
         <section id="work" className="max-w-6xl mx-auto px-6 sm:px-8 lg:px-12 py-32">
           <h2 className="text-5xl font-bold tracking-tight mb-16">Selected Work</h2>
-          <div className="space-y-24 mb-24">
+          {/* <div className="space-y-24 mb-24">
             <ProjectCard
               title="Coghead"
               description="A calculator web app for fixie foos."
@@ -67,7 +67,7 @@ export default function Home() {
               link="coghead"
               imageSrc="/filler.png" // <-- public folder path
             />
-          </div>
+          </div> */}
           
           <div className="space-y-24 mb-24">
             <ProjectCard

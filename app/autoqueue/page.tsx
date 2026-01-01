@@ -3,7 +3,7 @@ import DocSidebar from "../components/sidebar";
 
 export default function AutoQueue() {
   return (
-    <div className="relative min-h-screen text-black dark:text-white overflow-hidden">
+    <div className="relative min-h-screen text-black dark:text-white">
       <div className="relative z-10 mx-auto flex px-6 sm:px-8 lg:px-20 py-24 max-w-screen-xl">
 
         {/* ───── SIDEBAR ───── */}
