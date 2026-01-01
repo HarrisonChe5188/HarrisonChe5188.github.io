@@ -20,7 +20,7 @@ export default function AutoQueue() {
         />
 
         {/* ───── MAIN CONTENT ───── */}
-        <main className="flex-1 prose prose-lg dark:prose-invert max-w-none scroll-smooth">
+        <main className="flex-1 prose prose-lg dark:prose-invert max-w-none">
 
           <h1 id="overview" className="text-4xl font-bold mb-6 scroll-mt-32">
             AutoQueue
