@@ -6,6 +6,8 @@ import ProjectCard from "./ProjectCard";
 import Header from "./header";
 import { useRouter } from "next/navigation";
 export default function Home() {
+
+  {/* Technical Skills Data for use later on */}
   const skills = [
     { category: "Frontend", items: ["React", "Next.js", "TypeScript", "Tailwind"] },
     { category: "Backend", items: ["Node.js", "Express", "PostgreSQL", "API Design", "System Architecture"] },
@@ -81,11 +83,11 @@ export default function Home() {
 
           <div className="space-y-24 mb-24">
             <ProjectCard
-              title="Steam Review Sentiment Analysis"
-              description="New game's out! But I ain't reading all those reviews. So we built a tool that uses NLP to analyze and summarize user reviews for any game on Steam, helping gamers make informed decisions quickly."
-              tags={["Python", "NLP", "Data Visualization"]}
-              link="steam-reviews-sentiment-analysis"
-              imageSrc="/topN.png" // <-- public folder path
+              title="Cartesian Sticker Cutter"
+              description="A compact 12×12 in sticker cutting machine using stepper motors for precise X-Y-Z movement, controlled by an Arduino, capable of cutting various materials with high accuracy."
+              tags={[]}
+              link="cartesian-sticker-cutter"
+              imageSrc="/stickercutter.jpg" // <-- public folder path
             />
           </div>
 
@@ -103,11 +105,23 @@ export default function Home() {
 
           <div className="space-y-24 mb-24">
             <ProjectCard
-              title="Pi as a Wifi Access Point"
-              description="Hobbyist parts? The treasury couldn't afford such an expense. So I took a Raspberry Pi and configured it to act as a mini router. "
-              tags={["Micropython", "Raspberry Pi", "Networking"]}
-              link="pi-as-wifi-access-point"
-              imageSrc="/pi.jpg" // <-- public folder path
+              title="Temperature Indicator"
+              description="A hands-on engineering project culminating in a functional temperature sensor that uses a TMP36 to measure temperature as voltage, 
+              converts the reading, and displays it on an LCD, triggering an LED and buzzer alert when the temperature exceeds ~80°F."
+              tags={[]}
+              link="temperature-indicator"
+              imageSrc="temperature-indicator/t2.jpg" // <-- public folder path
+            />
+          </div>
+
+          <div className="space-y-24 mb-24">
+            <ProjectCard
+              title="Room Occupancy Monitor"
+              description="As part of EK210: Intro to Engineering Design, our team developed a room occupancy monitor through iterative prototyping to track room 
+              population and issue alerts when capacity limits are exceeded, supporting COVID-19 safety efforts."
+              tags={[]}
+              link="room-occupancy-monitor"
+              imageSrc="room-occupancy-monitor/r5.png" // <-- public folder path
             />
           </div>
 

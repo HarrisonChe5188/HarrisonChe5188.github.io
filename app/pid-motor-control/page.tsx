@@ -36,6 +36,8 @@ export default function PIDMotorControl() {
           to confirm the block stays on the vehicle by keeping track of the reaction force. Using a=g*L/W, we know the max possible acceleration to be 
           0.82m/s^2 which translates to a max velocity of 1.57m/s. However, this speed was far too fast as the motion analysis indicated the block had fallen off.
           <br />
+          <br />
+          <img src="pid/pidgif.gif" width="50%" className="mx-auto" />
           </p>
           <br />
           
@@ -45,24 +47,54 @@ export default function PIDMotorControl() {
           variables for this top speed. We do not actually expect the true race time to be in the single digits. 
           </p>
           <br />
-
+          <img src="pid/pid2.png" />
+          <br />
           <p>
             For my final design, I added treads and included a proper motor holder for a sideway connection via a pulley belt. I also reduced the size by 40% to reduce 
             added torque on the motor. This was one was quite a pain to apply motion analysis to. 
           </p>
+          <br />
+          <img src="pid/pid3.jpg" width="50%" className="mx-auto"/>
 
           <h2 id="results and takeaways" className="text-3xl font-semibold mt-12 scroll-mt-32">
             Results and Takeaways
           </h2>
+          <br />
           <p>
             In the end, we used rubber loops for better traction instead of treads. Using a proportional integral derivative control method for the Arduino, we were able to 
             create a smooth velocity profile for the car. After a couple of hours of trial and error, we found the sweet spot to be about 15 seconds. This is a fair bit longer 
             than the motion analysis but such inaccuracies are to be expected. 
           </p>
+           <div className="flex flex-col md:flex-row items-center gap-6 mb-12">
+            <img
+              src="pid/pid4.jpg"
+              alt="PID control graph"
+              className=" w-full md:w-1/2 object-cover"
+              style={{ maxHeight: '360px' }}
+            />
+
+            <div className="w-full md:w-1/2">
+              <video
+                controls
+                playsInline
+                className=" w-full object-cover"
+                style={{ maxHeight: '360px' }}
+              >
+                <source
+                  src="pid/pidvid.mp4"
+                  type="video/mp4"
+                />
+                Your browser does not support the video tag.
+              </video>
+            </div>
+          </div>
+
           <section id="links" className="scroll-mt-32 mb-24">
             <h2 className="text-3xl font-semibold mt-12">Project Links</h2>
             <ul>
-              <li><a href="https://github.com/HarrisonChe5188/AutoQueue" target="_blank" className="text-blue-500 hover:underline">GitHub repository to the terminal tool</a></li>
+              <li><a href="https://drive.google.com/file/d/1Msq2AId4lkh8WiF6qyHX3yxdgDuE92Fb/view" target="_blank" className="text-blue-500 hover:underline">Motion Study Zip</a></li>
+              <li><a href="https://drive.google.com/file/d/1Lhy4_zY3FpilJda7RGrdASSAo0HmkzXn/view" target="_blank" className="text-blue-500 hover:underline">Personal Car Design</a></li>
+
             </ul>
           </section>
 

@@ -5,7 +5,7 @@ import AARNChainring from "./chainring"; // adjust path if needed
 import Footer from "./footer"; // optional: create a Footer component
 
 export const metadata: Metadata = {
-  title: "Harrison Che | Portfolio",
+  title: "Nick Lin | Portfolio",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
